@@ -47,7 +47,7 @@ function Site() {
     setEditingIndex(null);
   };
 
-  const handleSaveChanges = (item: { canal: string; amount: number }) => {
+  const handleSaveChanges = () => {
     setEditingIndex(null);
   };
 
@@ -152,7 +152,7 @@ function Site() {
                   {editingIndex === index ? (
                     <>
                       <button className="btn-discard" onClick={() => handleDiscard(index)}>Discard</button>
-                      <button className="btn-save" onClick={() => handleSaveChanges(item)}>Save</button>
+                      <button className="btn-save" onClick={() => handleSaveChanges()}>Save</button>
                     </>
                   ) : (
                     <>

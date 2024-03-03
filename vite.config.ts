@@ -8,4 +8,5 @@ export default defineConfig({
     globals: true,
     environment: 'happy-dom'
   },
+  base: "/crud-canals-demo/"
 })
