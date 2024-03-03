@@ -5,7 +5,7 @@ function Site() {
   const initialData = [
     { id: 1, canal: "Channel 1", amount: 100 },
     { id: 2, canal: "Channel 2", amount: 200 },
-    { id: 3, canal: "Channel 3", amount: 150 },
+    { id: 3, canal: "Channel 3", amount: 300 },
   ];
 
   const [data, setData] = useState(initialData);
